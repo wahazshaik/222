@@ -14,7 +14,6 @@ from .serializers import (
 )
 @api_view(["GET"])
 def app_status(request):
-    """Provide a simple post-login status message for the empty starter app."""
 
     return Response(
         {

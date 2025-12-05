@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "ALBERT";
+    src: url("https://www.amns.in/external/Font.ttf");
+}
+
+@font-face {
+    font-family: "ALBERTB";
+    src: url("https://www.amns.in/external/FontBold.ttf");
+}
+
+body{
+    font-family: 'ALBERT';
+}
+
+.loginDiv {
+    color: white;
+    position: absolute;
+    top: 53%;
+    text-align: center;
+    left: 50%;
+    width: 50%;
+    border-radius: 8px;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.ant-card-head-title {
+    font-family: "ALBERTB" !important;
+}
+
+@media screen and (max-width: 600px) {
+    .loginDiv {
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+.loginCard {
+    box-shadow: 0px 1px 5px #88888880;
+    border-radius: 5px;
+}
+
+.loginForm {
+    padding-top: 15px;
+
+}
+
+.loginFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(219, 35, 22);
+    color: white;
+    text-align: center;
+}
+
+.loginFooterText {
+    margin-top: 6px !important;
+    margin-bottom: 8px !important;
+}
+
+.modal-backdrop {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.fade.modal.show {
+    padding-left: 0 !important;
+}

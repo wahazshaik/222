@@ -1,0 +1,18 @@
+.chart {
+    background-color: white;
+    border: 1px solid rgb(202, 202, 202);
+    transition: 0.3s;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.chart:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: black;
+    font-size: small;
+}
+
+.chart-card-title {
+    text-align: left;
+    font-size: 15px;
+}

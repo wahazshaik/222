@@ -1,0 +1,21 @@
+.dashlets-text {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    padding-right: 50px;
+
+}
+
+.dashboard-box {
+    height: 130px;
+    padding-right: 10px;
+    padding-left: 5px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+}
+
+.dashboard-box:hover {
+    box-shadow: 0px 1px 5px #88888880 !important;
+}

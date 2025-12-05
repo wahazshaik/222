@@ -1,0 +1,3 @@
+colors : nivo, BrBG, PRGn, PiYG, PuOR,RdBu, RdGy, RdYlBu RdYlGn,
+        spectral, blues, greens, greys, oranges, purples, red,
+        BuGn, GnBu, OrRd, PuBnGn, PuBu, PuRd, RdPu, YlGnBu, YlOrBu, YlOrRd

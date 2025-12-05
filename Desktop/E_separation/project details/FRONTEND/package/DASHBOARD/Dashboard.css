@@ -1,0 +1,46 @@
+.h1Style {
+    margin-bottom: 15px;
+    color: #bd2424;
+    font-family: "HNLSB";
+    font-size: 30px;
+    margin-top: -40px;
+}
+
+.location-title {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #1890ff;
+}
+
+.selectStyle {
+    width: 150px;
+    float: right;
+}
+
+.dashletsDiv {
+    margin-bottom: 20px;
+    margin: 2px;
+}
+
+.paddingLeftZero {
+    padding-left: 0px;
+}
+
+.marginBottom {
+    margin-bottom: 10px;
+}
+
+.paddingLeftRightZero {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.lineCharDiv {
+    margin-bottom: "30px";
+    margin: 2px;
+}
+
+.lineChartDivInner {
+    padding-left: 0px;
+    padding-right: 15px;
+}

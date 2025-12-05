@@ -1,0 +1,34 @@
+Video: https://gitlab.com/amns_dev/swframework/-/wikis/Swfrontend-Installation-Video
+
+1- Delete node_modules, package-lock.json, package.json
+2- Copy the given package.json
+3- Run npm install
+4- Install swfrontend package
+5- Run npm run eject (Commit before runnning the command)
+6- Copy the config folder, .env file to the root directory of the project
+7- Copy the ScreenRouter.js to src folder
+8- Copy the given code in App.js
+
+    import React from 'react';
+    import './App.css';
+    import MDMApp from 'swfrontend/MDMApp'
+    import getRoutes from "./ScreenRouters";
+    import {localStorageVariableName} from "swfrontend/AppConfigs";
+    import LoginPage from "swfrontend/LOGIN/LoginPage";
+    import {BrowserRouter} from "react-router-dom"
+    
+    const App = () => {
+        return (
+            localStorage.getItem(localStorageVariableName.authToken) == null ?
+                <LoginPage/> :
+                <BrowserRouter><MDMApp routes={getRoutes}/></BrowserRouter>
+        )
+    };
+
+    export default App;
+
+ 
+
+9- Replace the following line into your public/index.html
+
+    <body style="background-color: #f3eded; zoom: 0.9;">
